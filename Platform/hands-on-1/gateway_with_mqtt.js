@@ -13,10 +13,10 @@ VirtualModule.start(sp);
 // Your code:
 // ----------------------------------------------------------
 
-// When the connection is established
+// When the connection is established (Hands-on 3)
 client.on('connect', function() {
   // Subscribe from MQTT topics
-  client.subscribe('NXG/moocs/student_name/#');
+  // client.subscribe('NXG/moocs/student_name/#');
   client.subscribe('NXG/moocs/gateway_id/student_name/cmd');
 })
 
