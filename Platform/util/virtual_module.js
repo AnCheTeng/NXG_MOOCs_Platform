@@ -53,6 +53,12 @@ function receive(sp, anchor, devices) {
   }, rand);
 }
 
+function move(device) {
+  if(device.loc[0]<5 && device.loc[1]>=5) {
+    // blablalbablabla
+  }
+}
+
 module.exports = {
   start: function(sp) {
     sp.on("dataToDevice", function(data) {
