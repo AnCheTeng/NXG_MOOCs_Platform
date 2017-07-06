@@ -7,7 +7,7 @@ var std = 16;
 var tx_speed = 3000;
 
 var anchors = [new Anchor(3, [0, 10]),
-  new Anchor(2, [5, 10]),
+  new Anchor(2, [5, 0]),
   new Anchor(5, [10, 10])
 ];
 
